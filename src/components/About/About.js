@@ -18,15 +18,17 @@ function About() {
               <div className="about-content padd-15">
                 {/* <!--About Content Section  --> */}
                 <div className="row">
-                  <div className="about-text padd-15">
+                  <div className="about-text padd-15 className= mw-50">
                     <h3>
                       I'm Muhammad Tehsin and <span> Web Developer</span>
                     </h3>
                     <p>
-                      Graduated of Computer Science from PMAS University of ARID
-                      Agriculture Rawalpindi. I have worked on various projects
-                      in University that have allowed me to put what I've learnt
-                      in the class in a practical way
+                      A professional Front-End Web Developer, responsibly
+                      creating website designs by using coding and markup
+                      languages such as HTML5, CSS3, Bootstrap, Material-UI
+                      JavaScript & Reactjs. Now working as a freelancer, I am
+                      applying my expertise in designing user interactions on
+                      the web application.
                     </p>
                   </div>
                 </div>
@@ -92,7 +94,7 @@ function About() {
                   <div className="skills padd-15">
                     <div className="row">
                       <div className="skill-item padd-15">
-                        <h5>HTML</h5>
+                        <h5>HTML5</h5>
                         <div className="progress">
                           <div
                             className="progress-in"
@@ -103,7 +105,7 @@ function About() {
                       </div>
 
                       <div className="skill-item padd-15">
-                        <h5>CSS</h5>
+                        <h5>CSS3</h5>
                         <div className="progress">
                           <div className="progress-in" style={{ width: "70%" }}>
                             {" "}
@@ -113,7 +115,7 @@ function About() {
                       </div>
 
                       <div className="skill-item padd-15">
-                        <h5>BOOTSTRAP</h5>
+                        <h5>Bootstrap</h5>
                         <div className="progress">
                           <div
                             className="progress-in"
@@ -135,7 +137,7 @@ function About() {
                       </div>
 
                       <div className="skill-item padd-15">
-                        <h5>REACT JS</h5>
+                        <h5>React.js</h5>
                         <div className="progress">
                           <div
                             className="progress-in"
@@ -186,72 +188,13 @@ function About() {
                           <div className="timeline-item">
                             <div className="circle-dot"></div>
                             <h3 className="timeline-date">
-                              <i className="fa fa-calendar"></i>2019 - 2022
+                              <i className="fa fa-calendar"></i>2018 - 2022
                             </h3>
                             <h4 className="timeline-title">
                               Bachelor in Computer science
                             </h4>
                             <p className="timeline-text">
-                              Pir Meher Ali Shah University of Arid Agriculture
-                              Rawalpindi
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!--About Educational Info Section  --> */}
-                  <div className="experience padd-15">
-                    <h3 className="title">Experience</h3>
-                    <div className="row">
-                      <div className="timeline-box padd-15">
-                        <div className="timeline shadow-dark">
-                          {/* <!-- TimeLine Items --> */}
-                          <div className="timeline-item">
-                            <div className="circle-dot"></div>
-                            <h3 className="timeline-date">
-                              <i className="fa fa-calendar"></i>2013 - 2015
-                            </h3>
-                            <h4 className="timeline-title">Matriculation</h4>
-                            <p className="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Enim esse voluptate eaque quo id autem
-                              debitis sint tenetur iusto reiciendis numquam
-                              aspernatur delectus impedit, nisi illum!
-                            </p>
-                          </div>
-
-                          {/* <!-- TimeLine Items --> */}
-                          <div className="timeline-item">
-                            <div className="circle-dot"></div>
-                            <h3 className="timeline-date">
-                              <i className="fa fa-calendar"></i>2016 - 2018
-                            </h3>
-                            <h4 className="timeline-title">
-                              Intermediate In Computer science
-                            </h4>
-                            <p className="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Enim esse voluptate eaque quo id autem
-                              debitis sint tenetur iusto reiciendis numquam
-                              aspernatur delectus impedit, nisi illum!
-                            </p>
-                          </div>
-
-                          {/* <!-- TimeLine Items --> */}
-                          <div className="timeline-item">
-                            <div className="circle-dot"></div>
-                            <h3 className="timeline-date">
-                              <i className="fa fa-calendar"></i>2019 - 2022
-                            </h3>
-                            <h4 className="timeline-title">
-                              Bachelor in Computer science
-                            </h4>
-                            <p className="timeline-text">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Enim esse voluptate eaque quo id autem
-                              debitis sint tenetur iusto reiciendis numquam
-                              aspernatur delectus impedit, nisi illum!
+                              Arid University Rawalpindi
                             </p>
                           </div>
                         </div>

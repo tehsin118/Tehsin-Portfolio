@@ -19,6 +19,8 @@
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 1s ease;
 }
 .portfolio .portfolio-item-inner {
   border: 6px solid var(--bg-black-100);
@@ -93,30 +95,29 @@
 }
 
 /* --------------------------------- Card flip */
-
-.portfolio-item .portfolio-item-inner .portfolio-img {
-  position: relative;
-}
-.portfolio-item .portfolio-item-inner .portfolio-img:hover .flip-card-back a {
-  display: inline;
-}
-
-.flip-card-back {
-  position: absolute;
-  top: 50%;
-  left: 7%;
-  transition: all 1s ease;
-}
-
-.flip-card-back a {
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  margin-right: 0.11rem;
-  border: 2px solid#fff;
-  font-size: 1rem;
-  font-weight: 600;
-  background: red;
-  opacity: 0.9;
+.live-source {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0;
   display: none;
+}
+.live-source a {
+  color: #fff;
+  background: #ec1839;
+  padding: 8px 14px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.live-source a:hover {
+  color: #ec1839;
+  border: 1px solid #ec1839;
+  background: transparent;
+  outline: none;
+}
+.portfolio .portfolio-item:hover .live-source {
+  display: flex;
 }

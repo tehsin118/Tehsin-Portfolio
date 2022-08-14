@@ -14,11 +14,14 @@ function Home() {
                 I'm a <span className="typing">Frontend Developer</span>
               </h3>
               <p>
-                I'm a frontend developer with experience for over 6 month. My
-                experties is to create and design website, graphic design, and
-                many more...
+                A professional Front-End Web Developer, responsibly creating
+                website designs by using coding and markup languages such as
+                HTML5, CSS3, Bootstrap, Material-UI JavaScript & Reactjs.
               </p>
-              <a href="#" className="btn hire-me">
+              <a
+                href="\images\Navy Blue Minimalis Resumes.pdf"
+                className="btn hire-me"
+              >
                 Download CV
               </a>
             </div>

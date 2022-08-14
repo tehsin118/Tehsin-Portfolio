@@ -18,19 +18,25 @@ function Portfolio() {
             </div>
             <div className="row">
               {/* <!-- ======= Portfolio Items Start --> */}
-              <div className="portfolio-item padd-15">
-                <div className="portfolio-item-inner shadow-dark">
-                  <div className="portfolio-img">
-                    <img
-                      src="https://img.youtube.com/vi/cWk5EKVxrgo/sddefault.jpg"
-                      alt=""
-                    />
-                    <div class="flip-card-back">
-                      <a href="#" className="view-code">
-                        View Code
-                      </a>
-                      <a href="#" className="live-demo">
+              <div className="portfolio-item padd-15 ">
+                <div className="portfolio-item-inner shadow-dark ">
+                  <div className="portfolio-img ">
+                    <img src="\images\pandamax.PNG" alt="" />
+
+                    <div className="live-source">
+                      <a
+                        href="https://pandamax-freelance-project.netlify.app/"
+                        className="live-demo"
+                        target="_blank"
+                      >
                         Live Demo
+                      </a>
+                      <a
+                        href=" https://github.com/tehsin118/PandaMax-react"
+                        className="source-code"
+                        target="_blank"
+                      >
+                        Source Code
                       </a>
                     </div>
                   </div>
@@ -39,28 +45,27 @@ function Portfolio() {
               {/* <!-- ======= Portfolio Items End --> */}
 
               {/* <!-- ======= Portfolio Items Start --> */}
-              <div className="portfolio-item padd-15">
-                <div className="portfolio-item-inner shadow-dark">
-                  <div className="portfolio-img">
-                    <img
-                      src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_1280.jpg "
-                      alt=""
-                      style={{ objectPosition: "cover" }}
-                    />
-                  </div>
-                </div>
-              </div>
-              {/* <!-- ======= Portfolio Items End --> */}
+              <div className="portfolio-item padd-15 ">
+                <div className="portfolio-item-inner shadow-dark ">
+                  <div className="portfolio-img ">
+                    <img src="\images\stockFotage.JPG" alt="" />
 
-              {/* <!-- ======= Portfolio Items Start --> */}
-              <div className="portfolio-item padd-15">
-                <div className="portfolio-item-inner shadow-dark">
-                  <div className="portfolio-img">
-                    <img
-                      src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_1280.jpg "
-                      alt=""
-                      style={{ objectPosition: "cover" }}
-                    />
+                    <div className="live-source">
+                      <a
+                        href="https://get-stock-footage.netlify.app/"
+                        className="live-demo"
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                      <a
+                        href="https://github.com/tehsin118/Stock-Footage-Freelance-Project"
+                        className="source-code"
+                        target="_blank"
+                      >
+                        Source Code
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
