@@ -18,10 +18,7 @@ function Home() {
                 website designs by using coding and markup languages such as
                 HTML5, CSS3, Bootstrap, Material-UI JavaScript & Reactjs.
               </p>
-              <a
-                href="\images\Navy Blue Minimalis Resumes.pdf"
-                className="btn hire-me"
-              >
+              <a href="\Muhammad Tehsin CV.pdf" className="btn hire-me">
                 Download CV
               </a>
             </div>
