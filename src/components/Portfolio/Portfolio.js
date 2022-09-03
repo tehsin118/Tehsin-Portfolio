@@ -25,7 +25,7 @@ function Portfolio() {
 
                     <div className="live-source">
                       <a
-                        href="https://pandamax-freelance-project.netlify.app/"
+                        href="https://panda-max-react.vercel.app/"
                         className="live-demo"
                         target="_blank"
                       >
