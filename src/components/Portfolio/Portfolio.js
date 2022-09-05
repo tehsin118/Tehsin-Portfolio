@@ -75,7 +75,7 @@ function Portfolio() {
               <div className="portfolio-item padd-15 ">
                 <div className="portfolio-item-inner shadow-dark ">
                   <div className="portfolio-img ">
-                    <img src="\images\metamuze.JPG" alt="" />
+                    <img src="\images\metamuze.png" alt="" />
 
                     <div className="live-source">
                       <a
