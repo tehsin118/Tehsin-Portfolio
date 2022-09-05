@@ -70,6 +70,33 @@ function Portfolio() {
                 </div>
               </div>
               {/* <!-- ======= Portfolio Items End --> */}
+
+              {/* <!-- ======= Portfolio Items Start --> */}
+              <div className="portfolio-item padd-15 ">
+                <div className="portfolio-item-inner shadow-dark ">
+                  <div className="portfolio-img ">
+                    <img src="\images\metamuze.JPG" alt="" />
+
+                    <div className="live-source">
+                      <a
+                        href="https://vercel.com/tehsin118/metamuze"
+                        className="live-demo"
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                      <a
+                        href="https://github.com/tehsin118/metamuze"
+                        className="source-code"
+                        target="_blank"
+                      >
+                        Source Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- ======= Portfolio Items End --> */}
             </div>
           </div>
         </section>
