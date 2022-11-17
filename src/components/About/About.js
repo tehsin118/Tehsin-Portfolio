@@ -26,10 +26,10 @@ function About() {
                     <p>
                       A professional Front-End Web Developer, responsibly
                       creating website designs by using coding and markup
-                      languages such as HTML5, CSS3, Bootstrap, Material-UI
-                      JavaScript & Reactjs. Now working as a freelancer, I am
-                      applying my expertise in designing user interactions on
-                      the web application.
+                      languages such as HTML5, CSS3, Bootstrap, SASS JavaScript
+                      & Reactjs. Now working as a freelancer, I am applying my
+                      expertise in designing user interactions on the web
+                      application.
                     </p>
                   </div>
                 </div>
@@ -51,7 +51,10 @@ function About() {
                         <p>
                           Website :
                           <span>
-                            <a href="https://github.com/tehsin118">
+                            <a
+                              href="https://github.com/tehsin118"
+                              target="_blank"
+                            >
                               https://github.com/tehsin118
                             </a>
                           </span>
@@ -74,7 +77,7 @@ function About() {
                       </div>
                       <div className="info-item padd-15">
                         <p>
-                          City : <span>Rawalpindi</span>
+                          City : <span>Islamabad</span>
                         </p>
                       </div>
                       <div className="info-item padd-15">
@@ -91,6 +94,7 @@ function About() {
                       </div>
                     </div>
                   </div>
+
                   {/* <!--About Skills Section  --> */}
                   <div className="skills padd-15">
                     <div className="row">

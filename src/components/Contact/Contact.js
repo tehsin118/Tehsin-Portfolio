@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { Icon } from "@iconify/react";
 function Contact() {
   return (
     <div>
@@ -32,7 +33,7 @@ function Contact() {
                   <i class="fa fa-map-marker"> </i>
                 </div>
                 <h4>Address</h4>
-                <p>Galaxy Boys Hostel Shamsabad Rawalpindi</p>
+                <p>Islamabad</p>
               </div>
               {/* <!-- =======Contact Info Item End --> */}
 
@@ -53,11 +54,14 @@ function Contact() {
                 </div>
                 <h4>Website</h4>
                 <p>
-                  <a href="https://github.com/tehsin118">github</a>
+                  <a href="https://github.com/tehsin118" target="_blank">
+                    github
+                  </a>
                 </p>
               </div>
               {/* <!-- =======Contact Info Item End --> */}
             </div>
+
             <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
             <h4 class="contact-sub-title padd-15">
               I'M VERY RESPONSIVE TO MESSAGES

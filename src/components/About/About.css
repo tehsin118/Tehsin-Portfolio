@@ -92,9 +92,9 @@
 .about .about-content .skills .skill-item .skill-percent {
   position: absolute;
   right: 10px;
-  top: 40px;
-  color: greenyellow;
-  font-weight: 400;
+  bottom: 5px;
+  color: var(--skin-color);
+  font-weight: 500;
   line-height: 40px;
 }
 

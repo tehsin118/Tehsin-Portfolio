@@ -16,7 +16,7 @@ function Home() {
               <p>
                 A professional Front-End Web Developer, responsibly creating
                 website designs by using coding and markup languages such as
-                HTML5, CSS3, Bootstrap, Material-UI JavaScript & Reactjs.
+                HTML5, CSS3, Bootstrap, SASS, JavaScript & Reactjs.
               </p>
               <a href="\Muhammad Tehsin CV.pdf" className="btn hire-me">
                 Download CV

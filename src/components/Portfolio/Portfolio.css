@@ -26,6 +26,7 @@
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
 .portfolio .portfolio-item .portfolio-item-inner .portfolio-img img {
   width: 100%;
@@ -120,4 +121,33 @@
 }
 .portfolio .portfolio-item:hover .live-source {
   display: flex;
+}
+
+.portfolio-item-inner .layer {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  background-color: #ec1839;
+  opacity: 0.6;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: all 0.4s linear;
+}
+.portfolio-item-inner:hover .layer {
+  transform: translateY(0%);
+}
+
+.layer .mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layer .mid h2 {
+  color: rgb(255, 255, 255);
 }

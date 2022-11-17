@@ -1,6 +1,34 @@
+import { Icon } from "@iconify/react";
 import React from "react";
 import "./Portfolio.css";
 function Portfolio() {
+  const projects = [
+    {
+      id: 0,
+      thumbnail: "images/supervet.png",
+      link: "https://super-vet.netlify.app/",
+      name: "Supervet",
+    },
+    {
+      id: 1,
+      thumbnail: "images/lighthouseStake.png",
+      link: "https://lighthousestaking.netlify.app/",
+      name: "Light House Staking",
+    },
+    {
+      id: 2,
+      thumbnail: "images/deflymarket.png",
+      link: "https://deflyball-marketplace.netlify.app/",
+      name: "DeflyBall Marketplace",
+    },
+    {
+      id: 3,
+      thumbnail: "images/blocknotes.png",
+      link: "https://intequitylabs-staking.netlify.app/",
+      name: "Blocknotes Staking",
+    },
+  ];
+
   return (
     <div>
       <div classNameName="main-content">
@@ -18,84 +46,34 @@ function Portfolio() {
             </div>
             <div className="row">
               {/* <!-- ======= Portfolio Items Start --> */}
-              <div className="portfolio-item padd-15 ">
-                <div className="portfolio-item-inner shadow-dark ">
-                  <div className="portfolio-img ">
-                    <img src="\images\pandamax.PNG" alt="" />
 
-                    <div className="live-source">
-                      <a
-                        href="https://panda-max-react.vercel.app/"
-                        className="live-demo"
-                        target="_blank"
-                      >
-                        Live Demo
-                      </a>
-                      <a
-                        href=" https://github.com/tehsin118/PandaMax-react"
-                        className="source-code"
-                        target="_blank"
-                      >
-                        Source Code
-                      </a>
+              {projects.map((item) => {
+                return (
+                  <div className="portfolio-item padd-15 ">
+                    <div className="portfolio-item-inner shadow-dark ">
+                      <div className="portfolio-img ">
+                        {/* <img src="\images\pandamax.PNG" alt="" /> */}
+                        <img src={item.thumbnail} alt="" />
+                      </div>
+                      <div className="layer">
+                        <div className="mid">
+                          <a href={item.link} target="ghj">
+                            <Icon
+                              icon="ic:outline-open-in-new"
+                              color="#ededed"
+                              width="48"
+                              height="48"
+                            />
+                          </a>
+
+                          <h2>{item.name}</h2>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              {/* <!-- ======= Portfolio Items End --> */}
+                );
+              })}
 
-              {/* <!-- ======= Portfolio Items Start --> */}
-              <div className="portfolio-item padd-15 ">
-                <div className="portfolio-item-inner shadow-dark ">
-                  <div className="portfolio-img ">
-                    <img src="\images\stockFotage.JPG" alt="" />
-
-                    <div className="live-source">
-                      <a
-                        href="https://get-stock-footage.netlify.app/"
-                        className="live-demo"
-                        target="_blank"
-                      >
-                        Live Demo
-                      </a>
-                      <a
-                        href="https://github.com/tehsin118/Stock-Footage-Freelance-Project"
-                        className="source-code"
-                        target="_blank"
-                      >
-                        Source Code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* <!-- ======= Portfolio Items End --> */}
-
-              {/* <!-- ======= Portfolio Items Start --> */}
-              <div className="portfolio-item padd-15 ">
-                <div className="portfolio-item-inner shadow-dark ">
-                  <div className="portfolio-img ">
-                    <img src="\images\metamuze.png" alt="" />
-
-                    <div className="live-source">
-                      <a
-                        href="https://vercel.com/tehsin118/metamuze"
-                        className="live-demo"
-                        target="_blank"
-                      >
-                        Live Demo
-                      </a>
-                      <a
-                        href="https://github.com/tehsin118/metamuze"
-                        className="source-code"
-                        target="_blank"
-                      >
-                        Source Code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
               {/* <!-- ======= Portfolio Items End --> */}
             </div>
           </div>
