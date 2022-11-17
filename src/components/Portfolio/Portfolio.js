@@ -29,6 +29,12 @@ function Portfolio() {
     },
     {
       id: 4,
+      thumbnail: "images/house.png",
+      link: "https://house-of-dragonz.netlify.app/",
+      name: "Houe of Dragonz ",
+    },
+    {
+      id: 5,
       thumbnail: "images/blocknotes.png",
       link: "https://intequitylabs.netlify.app/",
       name: "Blocknotes ",
