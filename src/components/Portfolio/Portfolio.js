@@ -27,6 +27,12 @@ function Portfolio() {
       link: "https://intequitylabs-staking.netlify.app/",
       name: "Blocknotes Staking",
     },
+    {
+      id: 4,
+      thumbnail: "images/blocknotes.png",
+      link: "https://intequitylabs.netlify.app/",
+      name: "Blocknotes ",
+    },
   ];
 
   return (
