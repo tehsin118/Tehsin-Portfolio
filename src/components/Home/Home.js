@@ -16,7 +16,14 @@ function Home() {
               <p>
                 A professional Front-End Web Developer, responsibly creating
                 website designs by using coding and markup languages such as
-                HTML5, CSS3, Bootstrap, SASS, JavaScript & Reactjs.
+                HTML5, CSS3, Bootstrap5, SASS JavaScript & Reactjs also hands on
+                experience on wordpress. I am applying my expertise in designing
+                user interactions on the web application.
+                <br />
+                <span>Developer at: </span>
+                <a href="#" className="developer-at">
+                  OCTALOOP TECHNOLOGIES
+                </a>
               </p>
               <a href="\Muhammad Tehsin CV.pdf" className="btn hire-me">
                 Download CV

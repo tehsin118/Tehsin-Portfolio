@@ -128,12 +128,16 @@
   margin-right: 15px;
 }
 @media (max-width: 1199px) {
-  .aside {
+  #aside-bar {
     left: -270px;
+  }
+  #aside-bar-open {
+    left: 0px;
   }
   .aside.open {
     left: 0;
   }
+
   /* .main-content {
     padding-left: 0;
   } */

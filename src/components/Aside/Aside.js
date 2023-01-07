@@ -1,17 +1,21 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Aside.css";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 export default function Aside() {
+  const [hidden, showdrive] = useState(true);
+  const handleToggle = () => {
+    showdrive(!hidden);
+  };
   return (
     <div>
-      <div className="aside">
+      <div className="aside " id={hidden ? "aside-bar" : "aside-bar-open"}>
         <div className="logo">
           <a href="#">
             <span>T</span>ehsin
           </a>
         </div>
-        <div className="nav-toggler">
+        <div className="nav-toggler" onClick={handleToggle}>
           <span></span>
         </div>
         <ul className="nav">

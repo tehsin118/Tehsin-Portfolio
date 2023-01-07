@@ -4,6 +4,46 @@ import "./About.css";
 import "../../../src/App.css";
 
 function About() {
+  const skillSet = [
+    {
+      skill: "HTML5/CSS3",
+      progress: 70,
+    },
+    {
+      skill: "Bootsrap5/React Bootsrap",
+      progress: 80,
+    },
+    {
+      skill: "SASS",
+      progress: 65,
+    },
+    {
+      skill: "Javascript",
+      progress: 60,
+    },
+    {
+      skill: "ReactJS",
+      progress: 55,
+    },
+    {
+      skill: "WordPress",
+      progress: 70,
+    },
+  ];
+  const expSet = [
+    {
+      CompanyName: "Octaloop Technologies",
+      myRole: "Front-end Development",
+      startDate: "Aug 2022",
+      now: "Currently Working",
+    },
+    {
+      CompanyName: "UIIT Rawalpindi",
+      myRole: "3 Month Web Design Course",
+      startDate: "April 2022",
+      now: "July 2022",
+    },
+  ];
   return (
     <div>
       <div className="main-content">
@@ -26,10 +66,14 @@ function About() {
                     <p>
                       A professional Front-End Web Developer, responsibly
                       creating website designs by using coding and markup
-                      languages such as HTML5, CSS3, Bootstrap, SASS JavaScript
-                      & Reactjs. Now working as a freelancer, I am applying my
-                      expertise in designing user interactions on the web
-                      application.
+                      languages such as HTML5, CSS3, Bootstrap5, SASS JavaScript
+                      & Reactjs also hands on experience on wordpress. Now
+                      working at
+                      <span>
+                        <a href="#"> OCTALOOP TECHNOLOGIES</a>
+                      </span>
+                      , I am applying my expertise in designing user
+                      interactions on the web application.
                     </p>
                   </div>
                 </div>
@@ -44,7 +88,7 @@ function About() {
                       </div>
                       <div className="info-item padd-15">
                         <p>
-                          Age : <span>22</span>
+                          Age : <span>23</span>
                         </p>
                       </div>
                       <div className="info-item padd-15">
@@ -62,7 +106,7 @@ function About() {
                       </div>
                       <div className="info-item padd-15">
                         <p>
-                          Email : <span>tehsin118@gmail.com</span>
+                          Email :<span>tehsin118@gmail.com</span>
                         </p>
                       </div>
                       <div className="info-item padd-15">
@@ -98,65 +142,28 @@ function About() {
                   {/* <!--About Skills Section  --> */}
                   <div className="skills padd-15">
                     <div className="row">
-                      <div className="skill-item padd-15">
-                        <h5>HTML5</h5>
-                        <div className="progress">
-                          <div
-                            className="progress-in"
-                            style={{ width: "86%" }}
-                          ></div>
-                          <div className="skill-percent">86%</div>
-                        </div>
-                      </div>
-
-                      <div className="skill-item padd-15">
-                        <h5>CSS3</h5>
-                        <div className="progress">
-                          <div className="progress-in" style={{ width: "70%" }}>
-                            {" "}
+                      {skillSet.map((item, index) => {
+                        return (
+                          <div className="skill-item padd-15">
+                            <h5>{item.skill}</h5>
+                            <div className="progress">
+                              <div
+                                className="progress-in"
+                                style={{ width: item.progress + "%" }}
+                              ></div>
+                              <div className="skill-percent">
+                                {item.progress}%
+                              </div>
+                            </div>
                           </div>
-                          <div className="skill-percent">70%</div>
-                        </div>
-                      </div>
-
-                      <div className="skill-item padd-15">
-                        <h5>Bootstrap</h5>
-                        <div className="progress">
-                          <div
-                            className="progress-in"
-                            style={{ width: "65%" }}
-                          ></div>
-                          <div className="skill-percent">65%</div>
-                        </div>
-                      </div>
-
-                      <div className="skill-item padd-15">
-                        <h5>JavaScript</h5>
-                        <div className="progress">
-                          <div
-                            className="progress-in"
-                            style={{ width: "50%" }}
-                          ></div>
-                          <div className="skill-percent">50%</div>
-                        </div>
-                      </div>
-
-                      <div className="skill-item padd-15">
-                        <h5>React.js</h5>
-                        <div className="progress">
-                          <div
-                            className="progress-in"
-                            style={{ width: "40%" }}
-                          ></div>
-                          <div className="skill-percent">40%</div>
-                        </div>
-                      </div>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
 
-                {/* <!--About Educational Info Section  --> */}
                 <div className="row">
+                  {/* <!--About Educational Info Section  --> */}
                   <div className="education padd-15">
                     <h3 className="title">Education</h3>
                     <div className="row">
@@ -202,6 +209,65 @@ function About() {
                               Arid University Rawalpindi
                             </p>
                           </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* <!--About Experience Info Section  --> */}
+
+                  <div className="education padd-15">
+                    <h3 className="title">Experience</h3>
+                    <div className="row">
+                      <div className="timeline-box padd-15">
+                        <div className="timeline shadow-dark">
+                          {/* <!-- TimeLine Items --> */}
+                          {expSet.map((item) => {
+                            return (
+                              <div className="timeline-item">
+                                <div className="circle-dot"></div>
+                                <h3 className="timeline-date">
+                                  <i className="fa fa-calendar"></i>
+                                  {item.startDate} - {item.now}
+                                </h3>
+                                <h4 className="timeline-title">
+                                  {item.CompanyName}
+                                </h4>
+                                <p className="timeline-text">
+                                  <span>Role: </span>
+                                  {item.myRole}
+                                </p>
+                              </div>
+                            );
+                          })}
+                          {/* <!-- TimeLine Items --> */}
+                          {/* <div className="timeline-item">
+                            <div className="circle-dot"></div>
+                            <h3 className="timeline-date">
+                              <i className="fa fa-calendar"></i>2016 - 2018
+                            </h3>
+                            <h4 className="timeline-title">
+                              Intermediate In Computer science
+                            </h4>
+                            <p className="timeline-text">
+                              Jinnah College of Science & Technology Fatehpur
+                              Layyah
+                            </p>
+                          </div> */}
+
+                          {/* <!-- TimeLine Items --> */}
+                          {/* <div className="timeline-item">
+                            <div className="circle-dot"></div>
+                            <h3 className="timeline-date">
+                              <i className="fa fa-calendar"></i>2018 - 2022
+                            </h3>
+                            <h4 className="timeline-title">
+                              Bachelor in Computer science
+                            </h4>
+                            <p className="timeline-text">
+                              Arid University Rawalpindi
+                            </p>
+                          </div> */}
                         </div>
                       </div>
                     </div>

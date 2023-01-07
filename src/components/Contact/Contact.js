@@ -30,10 +30,13 @@ function Contact() {
               {/* <!-- =======Contact Info Item Start --> */}
               <div class="contact-info-item padd-15">
                 <div class="icon">
-                  <i class="fa fa-map-marker"> </i>
+                  {/* <i class="fa fa-map-marker"> </i> */}
+                  <i class="fa fa-linkedin"> </i>
                 </div>
-                <h4>Address</h4>
-                <p>Islamabad</p>
+                <h4>LinkedIn</h4>
+                <p>
+                  <a href="#">LinkedIn Profile</a>
+                </p>
               </div>
               {/* <!-- =======Contact Info Item End --> */}
 
@@ -52,10 +55,10 @@ function Contact() {
                 <div class="icon">
                   <i class="fa fa-globe-europe"> </i>
                 </div>
-                <h4>Website</h4>
+                <h4>GitHub Profile</h4>
                 <p>
                   <a href="https://github.com/tehsin118" target="_blank">
-                    github
+                    GitHub
                   </a>
                 </p>
               </div>

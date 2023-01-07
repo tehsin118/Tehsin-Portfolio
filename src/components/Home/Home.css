@@ -37,7 +37,7 @@ h3.my-profession {
   height: 80px;
   width: 80px;
   right: 20px;
-  bottom: -40px;
+  bottom: -30px;
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
 }
@@ -56,14 +56,22 @@ h3.my-profession {
 }
 .home-info p {
   margin-bottom: 70px;
-  font-size: 20px;
+  font-size: 18px;
   color: var(--text-black-700);
 }
 
+.home-info p span {
+  font-size: 20px;
+  color: var(--text-black-700);
+  font-weight: 600;
+}
+.home-info p a {
+  font-size: 20px;
+  color: var(--skin-color);
+  font-weight: 600;
+}
+
 @media (max-width: 1199px) {
-  .aside {
-    left: -270px;
-  }
   .aside.open {
     left: 0;
   }
